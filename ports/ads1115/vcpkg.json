@@ -1,0 +1,17 @@
+{
+    "name": "ads1115",
+    "version-string": "0.0.1",
+    "description": "C++20 library to interact with a ADS1115.",
+    "homepage": "https://github.com/L0ric0/ads1115",
+    "dependencies": [
+      "i2c-device",
+      {
+          "name": "vcpkg-cmake",
+          "host": true
+      },
+      {
+          "name": "vcpkg-cmake-config",
+          "host": true
+      }
+    ]
+}
