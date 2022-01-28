@@ -1,0 +1,20 @@
+{
+    "name": "i2c-device",
+    "version-string": "0.0.1",
+    "description":  "i2c_device is a platform crosplatform i2c library.",
+    "homepage": "https://github.com/L0ric0/i2c_device",
+    "dependencies": [
+      {
+          "name": "fmt",
+	  "platform": "linux"
+      },
+      {
+          "name": "vcpkg-cmake",
+          "host": true
+      },
+      {
+          "name": "vcpkg-cmake-config",
+          "host": true
+      }
+    ]
+}
